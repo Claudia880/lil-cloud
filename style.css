@@ -1,0 +1,54 @@
+#paragraph
+{
+    background-color: aqua;
+    font-size: 50px;
+    font-weight: 40px;
+    border-left-color: aquamarine;
+}
+
+.butonas{
+    background-color: rgb(237, 149, 207);
+    border: 1px solid pink;
+    border-radius: 10px;
+    /*padding: 30px;*/
+    /*top dreapta jos stanga*/
+    /*padding: 30px 15px;*/
+    padding: 10px 30px 35px 15px;
+
+}
+
+.butonas:hover{
+    background-color: coral;
+}
+
+li, span{  /* tot indexul se coloreaza roz(toate tag urile de span se fac rosii*/
+    color:pink;
+}
+
+   div h2{
+     font-family:'Franklin'
+   }
+
+     #croco
+    {
+    width: 190px;
+    height: 200px;
+    border-radius: 3rem; /* pt devices mai mici/mari*/
+    }
+
+    @media screen and(max-width:1000px)
+    {
+        #croco
+        {
+        width: 60vw;
+        border-radius: 3rem ;
+        }
+    }
+
+    *
+    {
+        margin: 0;
+        padding 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: cadetbluesss;
+    }
